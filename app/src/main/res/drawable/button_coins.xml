@@ -4,8 +4,8 @@
             <item android:left="@dimen/border_width" android:top="@dimen/border_width">
                 <shape>
                     <corners android:radius="@dimen/border_radius"
-                        android:topLeftRadius="@dimen/border_radius_hamburger"
-                        android:bottomLeftRadius="@dimen/border_radius_hamburger" />
+                        android:topLeftRadius="@dimen/border_radius_big"
+                        android:bottomLeftRadius="@dimen/border_radius_big" />
                     <solid android:color="@color/blue_dark" />
                 </shape>
             </item>
@@ -14,8 +14,8 @@
                     <solid android:color="@color/blue_light"/>
                     <stroke android:width="@dimen/border_width" android:color="@color/blue_dark" />
                     <corners android:radius="@dimen/border_radius"
-                        android:topLeftRadius="@dimen/border_radius_hamburger"
-                        android:bottomLeftRadius="@dimen/border_radius_hamburger" />
+                        android:topLeftRadius="@dimen/border_radius_big"
+                        android:bottomLeftRadius="@dimen/border_radius_big" />
                 </shape>
             </item>
         </layer-list>
