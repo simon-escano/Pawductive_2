@@ -29,6 +29,11 @@
             android:name=".Login"
             android:exported="false">
         </activity>
+
+        <activity
+            android:name=".Tasks"
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>
