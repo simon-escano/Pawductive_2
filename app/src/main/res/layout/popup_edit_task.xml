@@ -186,61 +186,17 @@
                     android:paddingTop="@dimen/spacing_very_small"
                     android:paddingRight="@dimen/spacing_small"
                     android:paddingBottom="@dimen/spacing_very_small"
-                    android:text="Mode"
+                    android:text="Chill"
                     android:textColor="@color/white" />
 
-                <EditText
-                    android:id="@+id/editTextText"
+                <ToggleButton
+                    android:id="@+id/toggleButton"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/negative_border_width"
                     android:layout_weight="1"
                     android:background="@drawable/input"
-                    android:ems="10"
-                    android:hint="Enter task mode"
-                    android:inputType="text"
-                    android:paddingLeft="@dimen/spacing_small"
-                    android:paddingRight="@dimen/spacing_small"
-                    android:text="Focus" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_small"
-                android:background="@drawable/shadow"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:paddingRight="@dimen/border_width"
-                android:paddingBottom="@dimen/border_width">
-
-                <TextView
-                    android:id="@+id/textView12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/input_title_yellow"
-                    android:fontFamily="@font/nunito_bold"
-                    android:paddingLeft="@dimen/spacing_small"
-                    android:paddingTop="@dimen/spacing_very_small"
-                    android:paddingRight="@dimen/spacing_small"
-                    android:paddingBottom="@dimen/spacing_very_small"
-                    android:text="Color"
-                    android:textColor="@color/white" />
-
-                <EditText
-                    android:id="@+id/editTextText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="@dimen/negative_border_width"
-                    android:layout_weight="1"
-                    android:background="@drawable/input"
-                    android:ems="10"
-                    android:hint="Enter task color"
-                    android:inputType="text"
-                    android:paddingLeft="@dimen/spacing_small"
-                    android:paddingRight="@dimen/spacing_small"
-                    android:text="#232412" />
+                    android:text="ToggleButton" />
 
             </LinearLayout>
 

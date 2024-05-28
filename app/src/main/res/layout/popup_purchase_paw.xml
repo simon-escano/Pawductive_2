@@ -62,7 +62,7 @@
                 android:padding="@dimen/spacing_small">
 
                 <TextView
-                    android:id="@+id/textView19"
+                    android:id="@+id/pawName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/nunito_black"
@@ -75,7 +75,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView15"
+                        android:id="@+id/pawImage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/button_white"
@@ -107,7 +107,7 @@
                                 android:src="@drawable/icon_coin" />
 
                             <TextView
-                                android:id="@+id/textView22"
+                                android:id="@+id/pawPrice"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/spacing_smallest"
@@ -132,7 +132,7 @@
                                 android:textColor="@color/gray" />
 
                             <TextView
-                                android:id="@+id/textView25"
+                                android:id="@+id/pawRarity"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito_black"

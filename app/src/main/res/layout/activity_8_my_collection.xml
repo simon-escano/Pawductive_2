@@ -170,7 +170,7 @@
                         android:padding="@dimen/spacing_small">
 
                         <TextView
-                            android:id="@+id/textView19"
+                            android:id="@+id/pawName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_black"
@@ -178,7 +178,7 @@
                             android:textSize="@dimen/font_size_medium" />
 
                         <ImageView
-                            android:id="@+id/imageView15"
+                            android:id="@+id/pawImage"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@drawable/button_white"
@@ -220,7 +220,7 @@
                         android:padding="@dimen/spacing_small">
 
                         <TextView
-                            android:id="@+id/textView19"
+                            android:id="@+id/pawName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/nunito_black"
@@ -228,7 +228,7 @@
                             android:textSize="@dimen/font_size_medium" />
 
                         <ImageView
-                            android:id="@+id/imageView15"
+                            android:id="@+id/pawImage"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@drawable/button_white"
